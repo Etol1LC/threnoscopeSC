@@ -40,7 +40,7 @@ DroneSpeakers {
 		tuning = argtuning;
 		image = Image.new(sd.asInteger, sd.asInteger);
 		image.draw({
-Ê Ê Ê Ê Ê Ê   Pen.color = backgroundColor;
+			Pen.color = backgroundColor;
 			Pen.fillRect(Rect(0, 0, sd.asInteger, sd.asInteger));
 			Color.black.alpha_(0.25).set;
 			Pen.line(Point(sd-0.5, 0), Point(sd-0.5, sd));
